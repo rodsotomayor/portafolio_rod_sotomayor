@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rod Sotomayor — UX/UI & Audiovisual Designer</title>
+  <meta name="description" content="Portfolio de Rodrigo Sotomayor, diseñador UX/UI y productor audiovisual con base en Santiago de Chile.">
+   <link rel="icon" type="image/jpeg" href="./assets/img/ROD SOTOMAYOR.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAVBAR ──────────────────────────────── -->
+  <header class="navbar" id="navbar" role="banner">
+    <a class="navbar__brand" href="#" aria-label="Ir al inicio">Rod Sotomayor</a>
+    <nav aria-label="Navegación principal">
+      <ul class="navbar__links" id="navLinks" role="list">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#disciplines">Especialidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="navbar__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ─── HERO ────────────────────────────────── -->
+  <main>
+    <section class="hero" aria-label="Presentación principal">
+  
+  <div class="hero__bg">
+    <img src="./assets/img/overlay.png" alt="" aria-hidden="true" width="1920" height="1080" loading="eager">
+  </div>
+      <p class="hero__eyebrow reveal">Santiago, Chile — 2026</p>
+      <h1 class="hero__title reveal reveal--delay-1">
+        <em>Portfolio Rod Sotomayor</em>
+      </h1>
+      <div class="hero__meta">
+        <ul class="hero__disciplines reveal reveal--delay-2">
+          <li>UX/UI Design</li>
+          <li>Audiovisual</li>
+          <li>Motion Graphics</li>
+          <li>Fotografía</li>
+          <li>Edición de Video</li>
+        </ul>
+        <span class="hero__scroll-hint reveal reveal--delay-3">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          Scroll para explorar
+        </span>
+      </div>
+    </section>
+
+    <!-- ─── SOBRE MÍ ─────────────────────────── -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <p class="section__label">01 — Sobre mí</p>
+      <div class="about__grid">
+
+        <div class="about__image-wrap reveal">
+         
+          <img
+            src="./assets/img/ROD SOTOMAYOR.jpg"
+            alt="Rodrigo Sotomayor, diseñador UX/UI"
+            width="600"
+            height="800"
+            loading="lazy"
+            onerror="this.style.background='var(--bg-alt)'; this.style.minHeight='400px';"
+          >
+        </div>
+
+        <div class="about__content">
+          <h2 class="about__name reveal" id="about-title">Rod Sotomayor Silva</h2>
+          <p class="about__bio reveal reveal--delay-1">
+            Diseñador multimedia con sólida experiencia en producción audiovisual, actualmente enfocado en el diseño de experiencia de usuario e interfaz (UX/UI).
+          </p>
+          <p class="about__bio reveal reveal--delay-2">
+            Tras tres años creando contenido visual, busco llevar estos conocimientos a la construcción de productos digitales que destaquen por su estética, claridad y funcionalidad. Me inspiro en el lenguaje cinematográfico para crear narrativas visuales impactantes.
+          </p>
+
+          <p class="about__skills-title reveal reveal--delay-3">Software</p>
+          <ul class="tags reveal reveal--delay-3">
+            <li>Figma</li>
+            <li>Premiere Pro</li>
+            <li>After Effects</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>InDesign</li>
+            <li>DaVinci Resolve</li>
+            <li>Lightroom</li>
+          </ul>
+          <!-- 📄 Guarda tu CV como: ./assets/docs/CV-Rodrigo-Sotomayor.pdf -->
+<a href="./assets/docs/RESUME_CV RODRIGO SOTOMAYOR.pdf"
+   class="btn btn--primary"
+   download="RESUME_CV RODRIGO SOTOMAYOR.pdf"
+   style="margin-top: var(--space-8);"
+   aria-label="Descargar CV de Rodrigo Sotomayor">
+
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+  </svg>
+  Descargar CV
+</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CITA ─────────────────────────────── -->
+    <div class="quote-section" role="complementary">
+      <blockquote class="reveal">
+        " De la observación nace la inspiración "
+      </blockquote>
+    </div>
+
+    <!-- ─── PROYECTOS ────────────────────────── -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <p class="section__label">02 — Proyectos destacados</p>
+      <h2 class="section__title reveal" id="projects-title">UX/UI Design</h2>
+
+      <!-- PROYECTO 1: PAW SPOT -->
+      <article class="project reveal" aria-labelledby="paw-title">
+        <div class="project__image-wrap">
+
+          <img
+            src="./assets/img/pawspotframe.png"
+            alt="Mockup de la app Paw Spot mostrando el mapa interactivo para paseo de mascotas"
+            width="800"
+            height="600"
+            loading="lazy"
+            onerror="this.style.background='var(--bg-alt)'; this.style.minHeight='300px';"
+          >
+        </div>
+        <div class="project__content">
+          <p class="project__tag">UX/UI Case — iOS</p>
+          <h3 class="project__title" id="paw-title">Paw Spot</h3>
+          <p class="project__desc">
+            App que presenta como solución un mapa interactivo con lugares para pasear perros y recursos educativos sobre tenencia responsable. Busca crear una comunidad activa y generar comunicación efectiva para posibles adopciones. En Chile, hay más de 12 millones de perros y gatos con dueño y más de 4 millones sin supervisión.
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Ver en Figma</a>
+            <a href="#" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Ver en Behance</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="section__divider"></div>
+
+      <!-- PROYECTO 2: BRAVO AUTO -->
+      <article class="project project--reverse reveal" aria-labelledby="bravo-title">
+        <div class="project__image-wrap">
+
+          <img
+            src="./assets/img/bravoautoframe.png"
+            alt="Rediseño del sitio web de Bravo Auto mostrando pantallas de escritorio y móvil"
+            width="800"
+            height="600"
+            loading="lazy"
+            onerror="this.style.background='var(--bg-alt)'; this.style.minHeight='300px';"
+          >
+        </div>
+        <div class="project__content">
+          <p class="project__tag">UI Re-Design — Web</p>
+          <h3 class="project__title" id="bravo-title">Bravo Auto</h3>
+          <p class="project__desc">
+            Rediseño del sitio web centrado en mejorar la experiencia de usuario, facilitando la navegación y el acceso a información clave como stock de vehículos, garantías y sucursales. Se modernizó la identidad digital para transmitir mayor confianza y cercanía, mejorando la coherencia visual en todas las páginas.
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Ver caso completo</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ─── DISCIPLINAS ───────────────────────── -->
+    <section class="section section--alt" id="disciplines" aria-labelledby="disc-title">
+      <p class="section__label">03 — Especialidades</p>
+      <h2 class="section__title reveal" id="disc-title">Áreas de trabajo</h2>
+
+      <div class="disciplines-grid">
+
+        <article class="discipline-card reveal" aria-labelledby="disc1-title">
+          <div class="discipline-card__img">
+            
+            <img src="./assets/img/areadiseno.png" alt="Ejemplo de diseño gráfico digital" width="600" height="375" loading="lazy" onerror="this.style.background='var(--bg-alt)'; this.style.minHeight='180px';">
+          </div>
+          <div class="discipline-card__body">
+            <h3 class="discipline-card__title" id="disc1-title"><strong>Diseño Digital</strong></h3>
+            <p class="discipline-card__desc">Piezas gráficas, banners y comunicaciones visuales claras y efectivas para medios digitales.</p>
+            <a href="#" class="discipline-btn">Ver especialidad</a>
+          </div>
+        </article>
+
+        <article class="discipline-card reveal reveal--delay-1" aria-labelledby="disc2-title">
+          <div class="discipline-card__img">
+           
+            <img src="./assets/img/areaaudiovisual.png" alt="Fotograma de producción audiovisual Fashion Film Revelage" width="600" height="375" loading="lazy" onerror="this.style.background='var(--bg-alt)'; this.style.minHeight='180px';">
+          </div>
+          <div class="discipline-card__body">
+            <h3 class="discipline-card__title" id="disc2-title"><strong>Producción Audiovisual</strong></h3>
+            <p class="discipline-card__desc">Edición, colorimetría y motion graphics. Proyecto destacado: Fashion Film ©.</p>
+            <a href="#" class="discipline-btn">Ver especialidad</a>
+          </div>
+        </article>
+
+        <article class="discipline-card reveal reveal--delay-2" aria-labelledby="disc3-title">
+          <div class="discipline-card__img">
+          
+            <img src="./assets/img/areaphoto.png" alt="Muestra del portafolio fotográfico" width="600" height="375" loading="lazy" onerror="this.style.background='var(--bg-alt)'; this.style.minHeight='180px';">
+          </div>
+          <div class="discipline-card__body">
+            <h3 class="discipline-card__title" id="disc3-title"><strong>Fotografía</strong></h3>
+            <p class="discipline-card__desc">Retratos, paisajes, producto y arquitectura con manejo de la luz y composición cinematográfica.</p>
+            <a href="#" class="discipline-btn">Ver especialidad</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── FOOTER / CONTACTO ───────────────────── -->
+  <footer class="footer" id="contact" role="contentinfo">
+    <p class="footer__thanks reveal">¡ Gracias !</p>
+    <p class="footer__sub reveal reveal--delay-1">
+      No dudes en ponerte en contacto si tienes alguna pregunta o te gustaría programar una entrevista.
+    </p>
+    <div class="footer__links reveal reveal--delay-2">
+      <a href="mailto:rodsotomayor@outlook.es" aria-label="Enviar correo a Rodrigo">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+        rodsotomayor@outlook.es
+      </a>
+      <a href="tel:+56920298292" aria-label="Llamar a Rodrigo">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.07 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+        +56 9 2029 8292
+      </a>
+    </div>
+    <div class="footer__bottom">
+      <span class="footer__copy">© 2026 Rodrigo Sotomayor — Todos los derechos reservados.</span>
+      <span class="footer__copy">Proyecto modulo 6</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <script>
+    // 1. NAVBAR — fondo sólido al scrollear
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 30);
+    }, { passive: true });
+
+    // 2. MENÚ HAMBURGUESA
+    const toggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // 3. SCROLL REVEAL
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(el => observer.observe(el));
+
+    // 4. GRANO DE PELÍCULA
+    (function applyGrain() {
+      const canvas = document.createElement('canvas');
+      canvas.width = 250; canvas.height = 250;
+      const ctx = canvas.getContext('2d');
+      const imageData = ctx.createImageData(250, 250);
+      for (let i = 0; i < imageData.data.length; i += 4) {
+        const v = Math.random() * 255;
+        imageData.data[i]   = v;
+        imageData.data[i+1] = v;
+        imageData.data[i+2] = v;
+        imageData.data[i+3] = Math.random() * 38;
+      }
+      ctx.putImageData(imageData, 0, 0);
+      const url = canvas.toDataURL();
+      const style = document.createElement('style');
+      style.textContent = 'body::after { background-image: url("' + url + '"); }';
+      document.head.appendChild(style);
+    })();
+  </script>
+</body>
+</html>
