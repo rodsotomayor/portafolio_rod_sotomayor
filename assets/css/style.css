@@ -554,7 +554,7 @@ body::after {
 
 .discipline-btn:hover {
   background: var(--accent-hover);
-  color: var(--accent-hover);
+  color: var(--bg);
   border-color: var(--bg);
 }
 
